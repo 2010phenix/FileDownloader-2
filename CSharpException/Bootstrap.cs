@@ -78,7 +78,7 @@ namespace FileDownloader
             }
             catch (InvalidProgramException)
             {
-                Console.WriteLine("Unsuccessful scanning! Beware, this file may contain malicious software!");
+                Console.WriteLine("Unsuccessful scanning! Please try again later!");
                 Console.ReadKey();
             }
             catch (Exception)
