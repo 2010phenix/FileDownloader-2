@@ -13,7 +13,8 @@ namespace FileDownloader
 {
     class FileDownloaderMainClass
     {
-        private const string API_KEY = "378cd69674b87658c6bec05360952b39b21037befe907f613acb34e8af2e6d28";
+        // Use VirusTotal ApiKey
+        private const string API_KEY = "";
 
         static void Main(string[] args)
         {
